@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proc1", "proc1\proc1.vcproj", "{6F42DA27-D546-4488-BFAA-BE4EE553DB77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proc2", "proc2\proc2.vcproj", "{D6716C98-3E56-4836-81F6-23E0B6EBCC26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F42DA27-D546-4488-BFAA-BE4EE553DB77}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F42DA27-D546-4488-BFAA-BE4EE553DB77}.Debug|Win32.Build.0 = Debug|Win32
+		{6F42DA27-D546-4488-BFAA-BE4EE553DB77}.Release|Win32.ActiveCfg = Release|Win32
+		{6F42DA27-D546-4488-BFAA-BE4EE553DB77}.Release|Win32.Build.0 = Release|Win32
+		{D6716C98-3E56-4836-81F6-23E0B6EBCC26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6716C98-3E56-4836-81F6-23E0B6EBCC26}.Debug|Win32.Build.0 = Debug|Win32
+		{D6716C98-3E56-4836-81F6-23E0B6EBCC26}.Release|Win32.ActiveCfg = Release|Win32
+		{D6716C98-3E56-4836-81F6-23E0B6EBCC26}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

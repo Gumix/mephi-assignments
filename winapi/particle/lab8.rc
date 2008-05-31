@@ -1,0 +1,150 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_LAB8 MENU 
+BEGIN
+    POPUP "Меню"
+    BEGIN
+        MENUITEM "Старт",                       IDM_START
+        MENUITEM SEPARATOR
+        MENUITEM "Выход",                       IDM_EXIT
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 130, 366
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Настройки"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Параметры области",IDC_STATIC,7,7,116,50
+    GROUPBOX        "Параметры частицы",IDC_STATIC,7,63,116,132
+    LTEXT           "Ширина:",IDC_STATIC,14,20,30,8
+    LTEXT           "Высота:",IDC_STATIC,14,40,28,8
+    LTEXT           "Размер:",IDC_STATIC,14,77,27,8
+    LTEXT           "X начальное:",IDC_STATIC,14,97,62,8
+    LTEXT           "Y начальное:",IDC_STATIC,14,117,62,8
+    LTEXT           "Время движения:",IDC_STATIC,14,137,62,8
+    LTEXT           "Скорость:",IDC_STATIC,14,157,62,8
+    LTEXT           "Угол с осью X:",IDC_STATIC,14,177,50,8
+    EDITTEXT        IDC_EDIT_WIDTH,76,17,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_HEIGHT,76,37,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_SIZE,76,74,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_X,76,94,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_Y,76,114,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_TIME,76,134,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_SPEED,76,154,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_ANGLE,76,174,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Оставшееся время",IDC_STATIC,7,201,116,30
+    GROUPBOX        "Столкновения",IDC_STATIC,7,237,116,122
+    LISTBOX         IDC_TIME_LIST,14,250,102,102,LBS_NOINTEGRALHEIGHT | LBS_NOSEL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_COUNTER,14,214,102,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        VERTGUIDE, 14
+        VERTGUIDE, 76
+        VERTGUIDE, 116
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 359
+        HORZGUIDE, 24
+        HORZGUIDE, 44
+        HORZGUIDE, 81
+        HORZGUIDE, 101
+        HORZGUIDE, 121
+        HORZGUIDE, 141
+        HORZGUIDE, 161
+        HORZGUIDE, 181
+        HORZGUIDE, 218
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

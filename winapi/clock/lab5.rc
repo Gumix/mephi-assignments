@@ -1,0 +1,124 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_LAB5                ICON                    "lab5.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_LAB5 MENU 
+BEGIN
+    POPUP "Файл"
+    BEGIN
+        MENUITEM "Выход",                       IDM_EXIT
+    END
+    POPUP "Цвет"
+    BEGIN
+        MENUITEM "Белый",                       IDM_WHITE
+        MENUITEM "Шартрез",                     IDM_CHARTREUSE
+        MENUITEM "Гелиотроп",                   IDM_HELIOTROPE
+        MENUITEM "Лайм",                        IDM_LIME
+        MENUITEM "Малахитовый",                 IDM_MALACHITE
+        MENUITEM "Зелёная мята",                IDM_MINTGREEN
+        MENUITEM "Панг",                        IDM_PANG
+        MENUITEM "Барвинок",                    IDM_PERIWINKLE
+        MENUITEM "Жёлтый школьный автобус",     IDM_SCHOOLBUSYELLOW
+        MENUITEM "Циннвальдит",                 IDM_ZINNWALDITE
+    END
+    POPUP "Шрифт"
+    BEGIN
+        POPUP "Название"
+        BEGIN
+            MENUITEM "Arial",                       IDM_FONTARIAL
+            MENUITEM "Courier New",                 IDM_FONTCOURIER
+            MENUITEM "Times New Roman",             IDM_FONTTIMES
+        END
+        POPUP "Размер"
+        BEGIN
+            MENUITEM "16",                          IDM_FONT16
+            MENUITEM "20",                          IDM_FONT20
+            MENUITEM "24",                          IDM_FONT24
+        END
+    END
+    POPUP "Цифры"
+    BEGIN
+        MENUITEM "Арабские",                    IDM_ARABIC
+        MENUITEM "Римские",                     IDM_ROMAN
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,152 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_LAB14 MENU 
+BEGIN
+    POPUP "Масштаб времени"
+    BEGIN
+        MENUITEM "1:10",                        ID_SCALE10
+        MENUITEM "1:100",                       ID_SCALE100
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 100, 100, 571, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "АЗС"
+MENU IDC_LAB14
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Пуск",IDC_START,7,7,50,14
+    PUSHBUTTON      "Стоп",IDC_STOP,64,7,50,14,WS_DISABLED
+    GROUPBOX        "АИ-80",IDC_STATIC,7,28,134,220
+    LISTBOX         IDC_LIST80,14,41,120,200,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "АИ-92",IDC_STATIC,148,28,134,220
+    GROUPBOX        "АИ-95",IDC_STATIC,289,28,134,220
+    GROUPBOX        "АИ-98",IDC_STATIC,430,28,134,220
+    LISTBOX         IDC_LIST92,155,41,120,200,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST95,296,41,120,200,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST98,437,41,120,200,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_QUEUE,121,7,308,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Оптимальное число",IDC_OPTIMAL,491,7,73,14
+    PUSHBUTTON      "Сутки",IDC_DAY,437,7,47,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 564
+        VERTGUIDE, 14
+        VERTGUIDE, 57
+        VERTGUIDE, 64
+        VERTGUIDE, 114
+        VERTGUIDE, 121
+        VERTGUIDE, 134
+        VERTGUIDE, 141
+        VERTGUIDE, 148
+        VERTGUIDE, 155
+        VERTGUIDE, 275
+        VERTGUIDE, 282
+        VERTGUIDE, 289
+        VERTGUIDE, 296
+        VERTGUIDE, 416
+        VERTGUIDE, 423
+        VERTGUIDE, 430
+        VERTGUIDE, 437
+        VERTGUIDE, 484
+        VERTGUIDE, 491
+        VERTGUIDE, 557
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+        HORZGUIDE, 21
+        HORZGUIDE, 28
+        HORZGUIDE, 41
+        HORZGUIDE, 241
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
